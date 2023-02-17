@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/564x/48/c6/71/48c671e5e7e2ac54a0e473cbd48e4dad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+}
+#titulo{
+    margin-top: 130px;
+    font-family: monospace;
+    font-size: 3em;
+    color:rgb(14, 15, 15);
+    letter-spacing: 1.8px;
+    text-align: center;
+   
+}
+#contenido{
+    
+  border-radius: 30px;
+  text-align: center;
+  background-color:#B7D2B6;
+  height: 500px;
+  width:500px;
+  margin: solid;
+  border: solid 4px;
+}
+#numero{
+    border: solid black;
+    background-color: aliceblue;
+    font-family:monospace;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 20px;
+}
+#de{
+    font-family:monospace;
+    font-size: 20px;
+    color:rgb(14, 15, 15);
+    text-align: center;
+    letter-spacing: 1px;
+}
+#select1{
+    border: solid black;
+    background-color: aliceblue;
+    font-family:monospace;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -1px;
+    margin-bottom: -3px;
+}
+#select2{
+    margin-top: -3px;
+    margin-bottom: -2px;
+    border: solid black;
+    background-color: aliceblue;
+    font-family:monospace;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+#boton{
+    border: solid black;
+    background-color: aliceblue;
+    font-family:monospace;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    
+}
+#resultado{
+    display: inline-block;
+    border: solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family:monospace;
+    color: black;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+#aaa{
+    height: 60px;
+}

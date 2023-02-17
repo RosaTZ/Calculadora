@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">CALCULADORA DE SISTEMAS DE NUMERACIÓN</h1>
+   <center><div id="contenido">
+    <h5 id="de">Convertir de:</h5>
+    <div>
+    <select id="select1">
+        <option value="decimal1">Decimal</option>
+        <option value="octal1">Octal</option>
+        <option value="hexadecimal1">Hexadecimal</option>
+        <option value="binario1">Binario</option>
+    </select>
+</div>
+<h5 id="de">A</h5>
+<div>
+    <select id="select2">
+        <option value="decimal2">Decimal</option>
+        <option value="octal2">Octal</option>
+        <option value="hexadecimal2">Hexadecimal</option>
+        <option value="binario2">Binario</option>
+    </select>
+</div>
+   <div>
+    <input type="text" id="numero" placeholder="Escriba el número a convertir">
+</div>
+    <button id="boton" onclick="convertir()">Convertir</button>
+    <button id="boton" onclick="limpiar()">Limpiar</button>
+    <div id="rta"></div>
+</div>
+<div id="alertError"><small id="error"></small></div>
+<div id="aaa"></div>
+</center> 
+    <script src="cal.js"></script>
+</body>
+</html>
